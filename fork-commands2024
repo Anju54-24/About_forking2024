@@ -27,7 +27,7 @@ $ cd repository
 # Create a pull request
 @ Go to forked repo on github
 @ click on the " New pull Request"
-@ Follow the instructions to create pull request.This notifies the owner and allows them to merge .
+@ Follow the instructions to create pull request.This notifies the owner of your changes and allows them to merge your changes into their repo if they approve.
 
  
 
