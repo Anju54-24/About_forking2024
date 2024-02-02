@@ -1,0 +1,33 @@
+To clone a Repo from another github a/c to your own,make changes and then push those changes:
+# Fork the Repo
+@ Go to the repo on the other github a/c
+@ Click on the "Fork" button at the top right this create copy of the repo under your github a/c
+
+# Clone the forked repo
+@ Copy the URL of your forked repo(on your github page)
+@ open git bash on your local machine
+@ Navigate to the directory where to clone the repo
+cd/path /to/your/directory
+
+# Clone the Repository
+$ git clone (cloned URL) https:// or ssh 
+
+# Make changes
+@ Navigate into the cloned repo
+$ cd repository
+@ Make the necessary changes to your local files
+
+# commit the changes with a meaningful messages
+ $ git commit -m "Your commit message"
+
+ # Push changes to your fork
+ @ Push the changes to your forked repo
+  $ git push -u origin main or master (your prefered branch_name)
+
+# Create a pull request
+@ Go to forked repo on github
+@ click on the " New pull Request"
+@ Follow the instructions to create pull request.This notifies the owner and allows them to merge .
+
+ 
+
